@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uvm">紫外线强度传感器</string>
+    <string name="value">紫外线强度值：</string>
+    <string name="Uvpm1">不需要采取防护措施</string>
+    <string name="Uvpm2">可适当采取一些防护措施，如涂防晒霜等</string>
+    <string name="Uvpm3">外出时戴遮阳帽和太阳镜，并涂上 SPF15 + 防晒霜等</string>
+    <string name="Uvpm4">外出时戴遮阳帽和太阳镜，并涂上 SPF15 + 防晒霜等，另外，应尽量在10~16时避免在阳光下活动</string>
+    <string name="Uvpm5">尽可能不在室外活动，必须外出时，要采取各种有效的防护措施，如戴遮阳帽和太阳镜，并涂上 SPF15 + 防晒霜等</string>
+
+</resources>

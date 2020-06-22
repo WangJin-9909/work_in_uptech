@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorCollectionExp</string>
+    <string name="company">博创科技   嵌入互动</string>
+    <string name="sensors">传感器综合实验</string>
+    <string name="action_settings">设置</string>
+    <string name="action_quits">退出</string>
+    <string name="serverip">IP:</string>
+    <string name="serverport">Port:</string>
+    <string name="noinit">未初始化</string>
+</resources>

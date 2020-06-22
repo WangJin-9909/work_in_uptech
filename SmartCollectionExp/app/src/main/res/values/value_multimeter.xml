@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mul_aipr">大气压</string>
+    <string name="mul_bh">光照</string>
+    <string name="mul_temp">温度</string>
+    <string name="mul_humi">湿度</string>
+    <string name="mul_df940">薄膜压力</string>
+</resources>

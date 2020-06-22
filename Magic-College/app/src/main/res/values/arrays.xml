@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_array">
+        <item>魔法学院</item>
+        <item>魔法课程</item>
+        <item>移形换影</item>
+        <item>个人中心</item>
+    </string-array>
+</resources>

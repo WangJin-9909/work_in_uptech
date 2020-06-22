@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exps_ble"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".Exps_WifiActivity" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.22"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/hall_data"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.55625"
+            android:gravity="center"
+            android:hint="@string/noinit"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.30375"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1" />
+
+             <TextView
+                android:id="@+id/shock_data"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:hint="@string/noinit"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+            <!-- 
+              <TextView
+                android:id="@+id/mfs_x"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:hint="@string/noinit"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/mfs_y"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:hint="@string/noinit"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/mfs_z"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:hint="@string/noinit"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+             -->
+          
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.78"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.45"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.656" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.344"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4" />
+
+                <TextView
+                    android:id="@+id/trac_x"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:hint="@string/noinit"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/trac_y"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:hint="@string/noinit"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/trac_z"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:hint="@string/noinit"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_ship"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.55"
+            android:contentDescription="@string/ship"
+            android:scaleType="fitXY"
+            android:src="@drawable/ship1" />
+    </LinearLayout>
+
+</LinearLayout>

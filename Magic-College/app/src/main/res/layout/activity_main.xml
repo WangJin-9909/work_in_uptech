@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bxll="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#ffeeeeee"
+        android:padding="8dp">
+
+        <com.wangjin.magiccollege.ui.cus_view.TabView
+            android:id="@+id/tab_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            bxll:tabColor="#FF45C01A"
+            bxll:tabImage="@mipmap/college_normal"
+            bxll:tabSelectedImage="@mipmap/college_pressed"
+            bxll:tabTitle="魔法学院" />
+
+        <com.wangjin.magiccollege.ui.cus_view.TabView
+            android:id="@+id/tab_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            bxll:tabColor="#FF45C01A"
+            bxll:tabImage="@mipmap/course_normal"
+            bxll:tabSelectedImage="@mipmap/course_pressed"
+            bxll:tabTitle="魔法课程" />
+
+        <com.wangjin.magiccollege.ui.cus_view.TabView
+            android:id="@+id/tab_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            bxll:tabColor="#FF45C01A"
+            bxll:tabImage="@mipmap/th_normal"
+            bxll:tabSelectedImage="@mipmap/th_normal"
+            bxll:tabTitle="移形换影" />
+
+        <com.wangjin.magiccollege.ui.cus_view.TabView
+            android:id="@+id/tab_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            bxll:tabColor="#FF45C01A"
+            bxll:tabImage="@mipmap/me_normal"
+            bxll:tabSelectedImage="@mipmap/me_normal"
+            bxll:tabTitle="个人中心" />
+
+    </LinearLayout>
+
+</FrameLayout>

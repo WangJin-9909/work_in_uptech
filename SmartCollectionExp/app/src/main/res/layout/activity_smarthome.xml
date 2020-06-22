@@ -1,0 +1,359 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgs"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="800px"
+        android:layout_height="460px"
+        android:layout_marginLeft="2px"
+        android:layout_marginTop="10px" >
+
+        <AbsoluteLayout
+            android:id="@+id/AbsoluteLayout1"
+            android:layout_width="796px"
+            android:layout_height="455px"
+            android:background="@drawable/a05" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="33px"
+                android:layout_y="20px"
+                android:text="温度:"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="115px"
+                android:layout_y="20px"
+                android:text="℃"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="155px"
+                android:layout_y="20px"
+                android:text="湿度:"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="230px"
+                android:layout_y="20px"
+                android:text="%"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="190px"
+                android:layout_y="20px"
+                android:background="@drawable/biankuang"
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="590px"
+                android:layout_y="395px"
+                android:src="@drawable/zero" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="660px"
+                android:layout_y="395px"
+                android:src="@drawable/savenum" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="730px"
+                android:layout_y="395px"
+                android:src="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="590px"
+                android:layout_y="330px"
+                android:src="@drawable/three" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="660px"
+                android:layout_y="330px"
+                android:src="@drawable/towe" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="730px"
+                android:layout_y="330px"
+                android:src="@drawable/one" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="660px"
+                android:layout_y="265px"
+                android:src="@drawable/five" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="590px"
+                android:layout_y="265px"
+                android:src="@drawable/six" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="590px"
+                android:layout_y="200px"
+                android:src="@drawable/nine" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="660px"
+                android:layout_y="200px"
+                android:src="@drawable/eight" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="730px"
+                android:layout_y="200px"
+                android:src="@drawable/seven" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="65px"
+                android:layout_height="65px"
+                android:layout_x="730px"
+                android:layout_y="265px"
+                android:src="@drawable/four" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_x="595px"
+                android:layout_y="140px"
+                android:src="@drawable/telphone" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="152px"
+                android:layout_height="50px"
+                android:layout_x="644px"
+                android:layout_y="140px"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="phone"
+                android:paddingLeft="4px"
+                android:textColor="#000000"
+                android:textSize="20px" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="609px"
+                android:layout_y="55px"
+                android:text="位置:"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="14px"
+                android:layout_height="14px"
+                android:layout_x="590px"
+                android:layout_y="58px"
+                android:src="@drawable/t1"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="610px"
+                android:layout_y="86px"
+                android:text="类型:"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="611px"
+                android:layout_y="113px"
+                android:text="状态:"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="72px"
+                android:layout_y="20px"
+                android:background="@drawable/biankuang"
+                android:text="   "
+                android:textColor="#000000"
+                android:textSize="20px"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="650px"
+                android:layout_y="53px"
+                android:text="阳台"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="650px"
+                android:layout_y="87px"
+                android:text="@string/df940"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="14px"
+                android:layout_height="14px"
+                android:layout_x="590px"
+                android:layout_y="86px"
+                android:src="@drawable/t2"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="14px"
+                android:layout_height="14px"
+                android:layout_x="590px"
+                android:layout_y="115px"
+                android:src="@drawable/t3"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="650px"
+                android:layout_y="115px"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="60px"
+                android:layout_height="55px"
+                android:layout_x="745px"
+                android:layout_y="55px"
+                android:src="@drawable/node_warning"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="55px"
+                android:layout_height="55px"
+                android:layout_x="485px"
+                android:layout_y="360px"
+                android:src="@drawable/node_smog" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50px"
+                android:layout_height="60px"
+                android:layout_x="20px"
+                android:layout_y="310px"
+                android:src="@drawable/node_magt" />
+
+            <ImageView
+                android:id="@+id/light"
+                android:layout_width="55px"
+                android:layout_height="55px"
+                android:layout_x="316px"
+                android:layout_y="250px"
+                android:src="@drawable/node_light" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="326px"
+                android:layout_y="255px"
+                android:text="电灯"
+                android:textColor="#000000"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="14px"
+                android:layout_height="14px"
+                android:layout_x="15px"
+                android:layout_y="22px"
+                android:src="@drawable/t1" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="14px"
+                android:layout_height="14px"
+                android:layout_x="140px"
+                android:layout_y="22px"
+                android:src="@drawable/t2" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="730px"
+                android:layout_y="60px"
+                android:text="报警"
+                android:textColor="#000000" />
+        </AbsoluteLayout>
+    </FrameLayout>
+
+</LinearLayout>

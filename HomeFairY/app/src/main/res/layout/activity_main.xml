@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_weight="5">
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="前进" />
+
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="后退" />
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="左转" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="右转" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="停止" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三圈" />
+
+            <EditText
+                android:id="@+id/et_time"
+                android:layout_width="100dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btn_test_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_turn_time_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="转弯时长等级  :  0" />
+
+            <Button
+                android:id="@+id/btn_turn_time_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="转弯时长等级 :  1  " />
+
+            <Button
+                android:id="@+id/btn_turn_time_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="转弯时长等级 :  2  " />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

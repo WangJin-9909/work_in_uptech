@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exp_df940">薄膜压力</string>
+    <string name="exp_irds">红外对射</string>
+    <string name="exp_sht">温湿度</string>
+    <string name="exp_ys17">火焰</string>
+    <string name="exp_led">LED蜂鸣器</string>
+    <string name="exp_hall">干黄门-霍尔开关</string>
+    <string name="exp_smog">广谱气体</string>
+    <string name="exp_uvm">紫外线</string>
+    <string name="exp_airp">大气压力</string>
+    <string name="exp_snow">雨雪</string>
+    <string name="exp_bh1750">光照强度</string>
+    <string name="exp_trac">三轴加速度</string>
+    <string name="exp_dip">单轴倾角</string>
+    <string name="exp_shock">震动检测</string>
+  <!--  <string name="exp_mfs">磁场强度</string> --> 
+    <string name="exp_mcph">声响光敏</string>
+    <string name="exp_Zigbee">Zigbee综合</string>
+    <string name="exp_WIFI">WIFI综合</string>
+    <string name="exp_BLE">BLE综合</string>
+    <string name="intellgentgreenhouse">智能大棚</string>
+   <string name="multimeter">万用表</string>
+   
+</resources>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57C1FD"
+    android:orientation="vertical">
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/temp_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/linear_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_viewTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbackground"
+            android:text="查看温度" />
+
+        <Button
+            android:id="@+id/btn_viewHumi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/buttonbackground"
+            android:text="查看湿度" />
+    </LinearLayout>
+</LinearLayout>

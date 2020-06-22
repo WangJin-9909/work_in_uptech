@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Android新技能"
+            android:textColor="#444"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/descTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="Android为ListView和GridView打造万能适配器"
+            android:textColor="#898989"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:paddingTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2015-05-04"
+            android:textColor="#898989"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/mesgtips"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+
+</LinearLayout>

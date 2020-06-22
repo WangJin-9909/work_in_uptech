@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bmp085">大气压力传感器</string>
+    <string name="mcph">声响光敏传感器</string>
+    <string name="bh1750">光照强度传感器</string>
+    <string name="dip">单轴倾角传感器</string>
+    <string name="trac">三轴加速度传感器</string>
+    <string name="mfs">磁场强度传感器</string>
+    <string name="irds">红外对射传感器</string>
+    <string name="df940">薄膜压力传感器</string>
+    <string name="ys17">火焰传感器</string>
+    <string name="text">博创科技  嵌入互动</string>
+    <string name="gid">GID: </string>
+    <string name="sid">SID:</string>
+    <string name="smog">广谱气体传感器</string>
+    <string name="state">状态: </string>
+     <string name="press">压力: </string>
+    <string name="bhv">光照强度:</string>
+    <string name="modules">模块:</string>
+    <string name="voi">声响: </string>
+    <string name="light">光敏:</string>
+    <string name="ship">ship</string>
+    <string name="light_value">光照强度值</string>
+    <string name="airp_value">大气压力值</string>
+    <string name="ys17_value">火焰状态</string>
+    <string name="temp_value">温度值</string>
+    <string name="uvm_value">紫外线强度值</string>
+     <string name="irds_value">红外状态</string>
+    <string name="img_value">天气信息</string>
+    <string name="light_desc">吊灯</string>
+    <string name="shock">震动检测传感器</string>
+    <string name="STK">震动</string>
+    <string name="novalue">未初始化</string>
+
+</resources>

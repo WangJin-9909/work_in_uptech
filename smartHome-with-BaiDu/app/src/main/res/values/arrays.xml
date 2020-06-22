@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="dev_all_name">
+    <item >SH_WiFi_HUB</item>
+    <item >SH_TC</item>
+    <item >SH_DLC</item>
+    <item >SH_CURTAIN</item>
+    <item >SH_LAMP</item>
+    <item >SH_ALV3</item>
+    <item >SH_QJS</item>
+    <item >SH_DC</item>
+    <item >SH_RSIR_0</item>
+    <item >SH_RSIR_1</item>
+    <item >SH_IFD</item>
+    <item >SH_VTD</item>
+    <item >SH_WED</item>
+    <item >SH_SBE</item>
+    <item >SH_SHT</item>
+    <item >SH_LDE</item>
+</string-array>
+<integer-array name="dev_all_id">
+    <item >0x00DD00</item>
+    <item >0x00DC00</item>
+    <item >0x00D800</item>
+    <item >0x00DB00</item>
+    <item >0x00DA00</item>
+    <item >0x00D900</item>
+    <item >0x00C500</item>
+    <item >0x00C100</item>
+    <item >0x00C800</item>
+    <item>0x00C800</item>
+    <item >0x00C900</item>
+    <item >0x00C600</item>
+    <item >0x00C700</item>
+    <item >0x00C300</item>
+    <item >0x000800</item>
+    <item >0x00C400</item>
+</integer-array>
+<string-array name="dev_all_desc">
+    <item >Wifi插座</item>
+    <item >遥控器</item>
+    <item >门磁阴极锁</item>
+    <item >电动窗帘</item>
+    <item >照明灯</item>
+    <item >报警灯</item>
+    <item >燃气探测器</item>
+    <item >门磁开关</item>
+    <item >幕帘红外探测器</item>
+    <item >吸顶红外探测器</item>
+    <item >红外栅栏</item>
+    <item >震动探测器</item>
+    <item >水浸探测器</item>
+    <item >紧急按钮</item>
+    <item >温湿度传感器</item>
+    <item >烟雾探测器</item>
+ </string-array>
+<integer-array name="dev_ctl_name_id">
+    <item >56576</item>
+    <item >56320</item>
+    <item >55296</item>
+    <item >56064</item>
+    <item >55808</item>
+    <item >55552</item>
+</integer-array>
+<string-array name="dev_ctl_name">
+    <item >SH_WiFi_HUB</item>
+    <item >SH_TC</item>
+    <item >SH_DLC</item>
+    <item >SH_CURTAIN</item>
+    <item >SH_LAMP</item>
+    <item >SH_ALV3</item>
+</string-array>
+<string-array name="dev_ctl_desc">
+    <item >Wifi插座</item>
+    <item >遥控器</item>
+    <item >门磁阴极锁</item>
+    <item >电动窗帘</item>
+    <item >照明灯</item>
+    <item >报警灯</item>
+</string-array>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uptech.sensorcollectionexp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.uptech.sensorcollectionexp.SensorCollectionApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/sensorcollection_ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.uptech.sensorcollectionexp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uptech.exp_ys17.YS17Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.rainsnow.EXP_RainSnowActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.sht11.EXP_SHT11Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.smog.EXP_SmogActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.ledbuzzer.EXP_LedBuzzerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.bH1750.EXP_Bh1750Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.df940.EXP_DF940Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.irst.EXP_IrstActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.exps_zigbee.SmartHomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.uptech.exp_mcph.McphActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.exp_dip.DipActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.exp_mfs.MfsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.exp_trac.TracActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.uptech.exps_wifi.Exps_WifiActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.uptech.exps_ble.BLEActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+         <activity
+            android:name="com.uptech.multimeter.MultimeterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+          <activity
+            android:name="com.uptech.intelligentgreenhouse.IntelligentGreenHouseActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+         <activity
+            android:name="com.uptech.exp_hall.EXP_HallActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+         <activity
+            android:name="com.uptech.exp_shock.ShockActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+    </application>
+
+</manifest>

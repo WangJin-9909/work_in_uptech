@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/input_bg"
+            android:layout_gravity="bottom"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sensors"
+                android:textColor="#ffffffff"
+                android:textSize="25.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.uptech.ScrollView.ScrollLayout
+        android:id="@+id/myscrollview1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="80" >
+    </com.uptech.ScrollView.ScrollLayout>
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/input_bg"
+            android:gravity="center" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/company"
+                android:textColor="#ffffffff"
+                android:textSize="25.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

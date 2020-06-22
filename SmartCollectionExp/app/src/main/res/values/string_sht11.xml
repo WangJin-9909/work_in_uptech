@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sht11">温湿度传感器</string>
+    <string name="temp">温度: </string>
+    <string name="humi">湿度: </string>
+
+</resources>

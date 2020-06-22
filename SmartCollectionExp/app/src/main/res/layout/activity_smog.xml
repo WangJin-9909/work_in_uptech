@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="@drawable/input_bg"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smog"
+            android:textColor="@android:color/white"
+            android:textSize="35.0sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="78"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/state"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:minWidth="120dp"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/gid"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/gid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:minWidth="120dp"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/sid"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/sid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:minWidth="120dp"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/modules"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/modules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:minWidth="120dp"
+                android:textColor="@android:color/white"
+                android:textSize="30px" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/input_bg"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>

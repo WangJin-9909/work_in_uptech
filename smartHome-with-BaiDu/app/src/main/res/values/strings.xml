@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">智能家居</string>
+    <string name="btn_ok">确定</string>
+    <string name="http_port">端口：</string>
+    <string name="ipaddress">IP地址：</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="btn_cancel">取消</string>
+</resources>

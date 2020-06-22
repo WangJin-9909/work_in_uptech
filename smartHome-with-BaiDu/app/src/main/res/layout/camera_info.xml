@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/activity_bg" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="@string/ipaddress"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/ipaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/input_bg"
+            android:cursorVisible="true"
+            android:minWidth="200dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/http_port"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/port_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/input_bg"
+            android:cursorVisible="true"
+            android:inputType="number"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/username"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/input_bg"
+            android:textColor="@android:color/black"
+            android:singleLine="true"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/password"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/input_bg"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null" />
+    </TableRow>
+
+</TableLayout>

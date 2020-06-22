@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="@drawable/input_bg"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exp_hall"
+            android:textColor="#ffffffff"
+            android:textSize="28.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="78"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="20px" >
+
+            <ImageView
+                android:id="@+id/Reed"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/off" />
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="35dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="干簧管"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/Holzer"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitCenter"
+                android:src="@drawable/off" />
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="35dp"
+                android:ellipsize="marquee"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="霍尔开关"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/input_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company"
+            android:textColor="#ffffffff"
+            android:textSize="23.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

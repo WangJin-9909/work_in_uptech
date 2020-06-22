@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/multimeter"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.18625" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.62625"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.19375" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:textSize="40sp"            
+            android:textColor="@android:color/black"
+            android:layout_weight="0.2417" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.34583" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" >
+
+                <Button
+                    android:id="@+id/mul_bh"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:onClick="onButton_Click"
+                    android:text="@string/mul_bh"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/mul_temp"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:onClick="onButton_Click"
+                    android:text="@string/mul_temp"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" >
+
+                <Button
+                    android:id="@+id/mul_df940"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:onClick="onButton_Click"
+                    android:text="@string/mul_df940"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/mul_humi"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:onClick="onButton_Click"
+                    android:text="@string/mul_humi"
+                    android:textSize="18sp" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10625" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1875" />
+
+</LinearLayout>
