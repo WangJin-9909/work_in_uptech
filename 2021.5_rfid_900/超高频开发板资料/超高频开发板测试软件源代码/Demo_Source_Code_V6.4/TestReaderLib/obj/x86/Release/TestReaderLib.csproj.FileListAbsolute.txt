@@ -1,0 +1,16 @@
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Csharp.exe
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Csharp.pdb
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\BarChart.dll
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Cmds.dll
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Com.dll
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\BarChart.pdb
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Cmds.pdb
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Cmds.xml
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Com.pdb
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\bin\Release\RFID_Reader_Com.xml
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\obj\x86\Release\TestReaderLib.csprojResolveAssemblyReference.cache
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\obj\x86\Release\RFID_Reader_Csharp.Form1.resources
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\obj\x86\Release\RFID_Reader_Csharp.Properties.Resources.resources
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\obj\x86\Release\TestReaderLib.csproj.GenerateResource.Cache
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\obj\x86\Release\RFID_Reader_Csharp.exe
+D:\work\Demo_Source_Code_V2.1\TestReaderLib\obj\x86\Release\RFID_Reader_Csharp.pdb

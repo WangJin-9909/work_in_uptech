@@ -1,0 +1,6 @@
+D:\work\Demo_Source_Code_V2.1\BarChart\bin\Release\BarChart.dll
+D:\work\Demo_Source_Code_V2.1\BarChart\bin\Release\BarChart.pdb
+D:\work\Demo_Source_Code_V2.1\BarChart\obj\Release\BarChart.HBarChart.resources
+D:\work\Demo_Source_Code_V2.1\BarChart\obj\Release\BarChart.csproj.GenerateResource.Cache
+D:\work\Demo_Source_Code_V2.1\BarChart\obj\Release\BarChart.dll
+D:\work\Demo_Source_Code_V2.1\BarChart\obj\Release\BarChart.pdb
